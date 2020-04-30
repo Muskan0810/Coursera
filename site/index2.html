@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Forms</title>
+</head>
+<body style="color: white;background-color: gray;background-image: url(gradient_bg.png);">
+     <h2 style="text-align: center;background-color:black;color: white;text-shadow: 5px 5px 5px red">APPLICATION FORM</h2>
+	<form>
+		<label for="name";value="name">Name</label>
+		<select id="salutation" name="salutation" style="background-color: pink">
+			<option value="Mr.">Mr.</option>
+			<option value="Mrs">Mrs.</option>
+			<option value="Miss" selected>Miss</option>
+		</select>
+		<input type="text" name="fname" id="name" size="40" style="background-color: pink"><br><br>
+		<label for="mail">E-mail</label>
+		<input type="email" name="mail" id="mail" style="background-color: pink"><br><br>
+		<label for="pass">Password</label>
+		<input type="password" name="pass" id="pass" style="background-color: pink"><br><br>
+		<label for="tel">Contact Number</label>
+		<input type="tel" name="tel" id="tel" style="background-color: pink">
+		<input type="submit" value="submit" style="background-color:magenta"><br><br>
+		<label for="age">Age</label>
+		<input type="number" name="number" id="age" maxlength="5" style="background-color: pink;width: 20px"><br><br>
+		<label for="dob">DOB</label>
+		<input type="date" name="dob" id="dob" style="background-color: pink"><br><br>
+		<label for="check">Readonly</label>
+		<input type="text" name="check" id="check" value="Check" style="background-color: pink" readonly><br><br>
+		<label for="disable">Disable</label>
+		<input type="text" name="text" id="disable" style="background-color: pink" disabled><br><br>
+		<label for="hdeg">Highest Degree</label>
+		<input type="radio" name="hdeg" id="hdeg"> 10th Board<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="hdeg" id="hdeg"> 12th Board<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="hdeg" id="hdeg"> Diploma<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="hdeg" id="hdeg"> B.Com.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="hdeg" id="hdeg"> B.A.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="hdeg" id="hdeg"> B.Sc.<br><br>
+
+		<label for="skills" >Skills</label>
+		<input type="checkbox" name="skills" id="skills"> C<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="skills" id="skills"> C++<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="skills" id="skills"> C#<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="skills" id="skills"> Python<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="skills" id="skills"> Java<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="skills" id="skills"> Ruby<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="skills" id="skills"> Perl<br><br>
+		<label for="time" style="background-color: magenta">Best time for interview</label>
+		<input type="time" name="time" id="time" style="background-color: pink"><br><br>
+		<label for="Search" style="background-color: pink">
+			<input type="file" name="Search" id="Search">
+		</label><br><br>
+		<label for="range" style="background-color: magenta">Price Range</label>
+		<input type="range" name="range" id="range" min="0" max="2000" style="background-color: pink">
+		<input type="submit" name="submit" style="background-color: magenta">
+		<input type="reset" name="reset" style="background-color: magenta"><br><br>
+		<label for="color">Choose color</label> 
+		<input type="color" name="color" style="background-color: pink"><br><br>
+		<label for="search">Search</label>  
+		<input type="Search" name="search" style="background-color: pink"><br><br>
+		 Any comments?<br>	
+        <textarea name="Any Comments" rows="8" cols="30" style="background-color: pink"></textarea><br><br>	
+		<input type="submit" name="submit" style="background-color:magenta"><br><br>
+
+
+
+			
+		
+	</form>
+
+	<a href="index1.html" target="_blank" style="text-decoration: underline;">Click here for box model</a>
+
+
+</body>
+</html>
